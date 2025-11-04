@@ -1,0 +1,1390 @@
+../Calc_wavecar/mp-1015
+mp-1015
+Creating GCOEFF.txt ...
+Output: 
+ record length  =      112688  spins =           2  prec flag        45200
+ no. k points =           4
+ no. bands =         256
+ max. energy =   680.000000    
+ real space lattice vectors:
+ a1 =   2.47259808      -4.28266478       0.00000000    
+ a2 =   2.47259808       4.28266478       0.00000000    
+ a3 =   0.00000000       0.00000000       16.4152851    
+  
+  
+ volume unit cell =   347.653076    
+ reciprocal lattice vectors:
+ b1 =   1.27056348     -0.733560264       0.00000000    
+ b2 =   1.27056348      0.733560264      -0.00000000    
+ b3 =  -0.00000000       0.00000000      0.382764310    
+ reciprocal lattice vector magnitudes:
+   1.46712041       1.46712041      0.382764310    
+  
+ max. no. G values; 1,2,3 =          11          11          35
+  
+ estimated max. no. plane waves =       16127
+  
+ ******
+ reading spin            1
+ k point #           1   input no. of plane waves =       14085
+ k value =   0.00000000       0.00000000       0.00000000    
+ k point #           2   input no. of plane waves =       14036
+ k value =  0.250000000      -3.54007577E-18   0.00000000    
+ k point #           3   input no. of plane waves =       13964
+ k value =  0.500000000      -7.08015154E-18   0.00000000    
+ k point #           4   input no. of plane waves =       13969
+ k value =  0.250000000      0.250000000       0.00000000    
+  
+ ******
+ reading spin            2
+ k point #           1   input no. of plane waves =       14085
+ k value =   0.00000000       0.00000000       0.00000000    
+ k point #           2   input no. of plane waves =       14036
+ k value =  0.250000000      -3.54007577E-18   0.00000000    
+ k point #           3   input no. of plane waves =       13964
+ k value =  0.500000000      -7.08015154E-18   0.00000000    
+ k point #           4   input no. of plane waves =       13969
+ k value =  0.250000000      0.250000000       0.00000000    
+
+Errors: 
+------GCOEFF created------------
+
+=================================== 
+Reading GCOEFF.txt ....               
+
+no. spin values = 2
+no. k points    = 4
+no. bands       = 256
+real space lattice vectors:
+a1 = [ 2.47259808 -4.28266478  0.        ]
+a2 = [2.47259808 4.28266478 0.        ]
+a3 = [ 0.         0.        16.4152851]
+
+volume unit cell = 347.65304304901827
+
+reciprocal lattice vectors:
+b1 = [ 1.27056348 -0.73356026  0.        ]
+b2 = [ 1.27056348  0.73356026 -0.        ]
+b3 = [-0.          0.          0.38276431]
+
+reading plane wave coefficients...
+k point #1
+k point #2
+k point #3
+k point #4
+k point #1
+k point #2
+k point #3
+k point #4
+GCOEFF reading complete------------------------------------
+===================================================
+
+kpoints used in the DFT calculation:
+ [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 2.50000000e-01 -3.54007577e-18  0.00000000e+00]
+ [ 5.00000000e-01 -7.08015154e-18  0.00000000e+00]
+ [ 2.50000000e-01  2.50000000e-01  0.00000000e+00]]
+======================================
+
+Emin: -0.5, Emax: 0.0, Sublattice element: Mn
+Structure: 
+ ========================
+ Full Formula (Zr8 Mn16)
+Reduced Formula: ZrMn2
+abc   :   4.945196   4.945196  16.415286
+angles:  90.000000  90.000000 119.999996
+pbc   :       True       True       True
+Sites (24)
+  #  SP           a         b         c
+---  ----  --------  --------  --------
+  0  Zr    0         0         0.093023
+  1  Zr    0         0         0.593023
+  2  Zr    0         0         0.906977
+  3  Zr    0         0         0.406977
+  4  Zr    0.333333  0.666667  0.843349
+  5  Zr    0.666667  0.333333  0.343349
+  6  Zr    0.666667  0.333333  0.156651
+  7  Zr    0.333333  0.666667  0.656651
+  8  Mn    0.333333  0.666667  0.125057
+  9  Mn    0.666667  0.333333  0.625057
+ 10  Mn    0.666667  0.333333  0.874943
+ 11  Mn    0.333333  0.666667  0.374943
+ 12  Mn    0.5       0         0
+ 13  Mn    0.5       0.5       0.5
+ 14  Mn    0         0.5       0.5
+ 15  Mn    0         0.5       0
+ 16  Mn    0.5       0.5       0
+ 17  Mn    0.5       0         0.5
+ 18  Mn    0.163941  0.327883  0.25
+ 19  Mn    0.836059  0.163941  0.75
+ 20  Mn    0.327883  0.163941  0.75
+ 21  Mn    0.672117  0.836059  0.25
+ 22  Mn    0.163941  0.836059  0.25
+ 23  Mn    0.836059  0.672117  0.75 
+
+Sublattice Structure: 
+ ========================
+ Full Formula (Mn16)
+Reduced Formula: Mn
+abc   :   4.945196   4.945196  16.415286
+angles:  90.000000  90.000000 119.999996
+pbc   :       True       True       True
+Sites (16)
+  #  SP           a         b         c
+---  ----  --------  --------  --------
+  0  Mn    0.333333  0.666667  0.125057
+  1  Mn    0.666667  0.333333  0.625057
+  2  Mn    0.666667  0.333333  0.874943
+  3  Mn    0.333333  0.666667  0.374943
+  4  Mn    0.5       0         0
+  5  Mn    0.5       0.5       0.5
+  6  Mn    0         0.5       0.5
+  7  Mn    0         0.5       0
+  8  Mn    0.5       0.5       0
+  9  Mn    0.5       0         0.5
+ 10  Mn    0.163941  0.327883  0.25
+ 11  Mn    0.836059  0.163941  0.75
+ 12  Mn    0.327883  0.163941  0.75
+ 13  Mn    0.672117  0.836059  0.25
+ 14  Mn    0.163941  0.836059  0.25
+ 15  Mn    0.836059  0.672117  0.75 
+
+
+----------------------------
+Structure graph:
+initial_coord    final_coord      image_in_periodic_cell
+ -------------------------------------------------
+[0.333333 0.666667 0.125057] [0.163941 0.327883 0.25    ] (0, 0, 0)
+[0.333333 0.666667 0.125057] [0.  0.5 0. ] (0, 0, 0)
+[0.333333 0.666667 0.125057] [0.5 0.5 0. ] (0, 0, 0)
+[0.333333 0.666667 0.125057] [0.672117 0.836059 0.25    ] (0, 0, 0)
+[0.333333 0.666667 0.125057] [0.5 1.  0. ] (0, 1, 0)
+[0.333333 0.666667 0.125057] [0.163941 0.836059 0.25    ] (0, 0, 0)
+[0.666667 0.333333 0.625057] [0.5 0.  0.5] (0, 0, 0)
+[0.666667 0.333333 0.625057] [0.327883 0.163941 0.75    ] (0, 0, 0)
+[0.666667 0.333333 0.625057] [1.  0.5 0.5] (1, 0, 0)
+[0.666667 0.333333 0.625057] [0.836059 0.163941 0.75    ] (0, 0, 0)
+[0.666667 0.333333 0.625057] [0.5 0.5 0.5] (0, 0, 0)
+[0.666667 0.333333 0.625057] [0.836059 0.672117 0.75    ] (0, 0, 0)
+[0.666667 0.333333 0.874943] [0.5 0.  1. ] (0, 0, 1)
+[0.666667 0.333333 0.874943] [0.327883 0.163941 0.75    ] (0, 0, 0)
+[0.666667 0.333333 0.874943] [0.836059 0.163941 0.75    ] (0, 0, 0)
+[0.666667 0.333333 0.874943] [1.  0.5 1. ] (1, 0, 1)
+[0.666667 0.333333 0.874943] [0.836059 0.672117 0.75    ] (0, 0, 0)
+[0.666667 0.333333 0.874943] [0.5 0.5 1. ] (0, 0, 1)
+[0.333333 0.666667 0.374943] [0.163941 0.327883 0.25    ] (0, 0, 0)
+[0.333333 0.666667 0.374943] [0.  0.5 0.5] (0, 0, 0)
+[0.333333 0.666667 0.374943] [0.672117 0.836059 0.25    ] (0, 0, 0)
+[0.333333 0.666667 0.374943] [0.5 0.5 0.5] (0, 0, 0)
+[0.333333 0.666667 0.374943] [0.163941 0.836059 0.25    ] (0, 0, 0)
+[0.333333 0.666667 0.374943] [0.5 1.  0.5] (0, 1, 0)
+[0.5 0.  0. ] [ 0.5 -0.5  0. ] (0, -1, 0)
+[0.5 0.  0. ] [0.5 0.5 0. ] (0, 0, 0)
+[0.5 0.  0. ] [ 0.  -0.5  0. ] (0, -1, 0)
+[0.5 0.  0. ] [1.  0.5 0. ] (1, 0, 0)
+[0.5 0.5 0.5] [0.5 0.  0.5] (0, 0, 0)
+[0.5 0.5 0.5] [0.5 1.  0.5] (0, 1, 0)
+[0.5 0.5 0.5] [0.  0.5 0.5] (0, 0, 0)
+[0.5 0.5 0.5] [1.  0.5 0.5] (1, 0, 0)
+[0.  0.5 0.5] [-0.5  0.   0.5] (-1, 0, 0)
+[0.  0.5 0.5] [0.5 1.  0.5] (0, 1, 0)
+[0.  0.5 0. ] [-0.5  0.5  0. ] (-1, 0, 0)
+[0.  0.5 0. ] [0.5 0.5 0. ] (0, 0, 0)
+[0.163941 0.327883 0.25    ] [ 0.163941 -0.163941  0.25    ] (0, -1, 0)
+[0.163941 0.327883 0.25    ] [0.163941 0.836059 0.25    ] (0, 0, 0)
+[0.163941 0.327883 0.25    ] [-0.327883 -0.163941  0.25    ] (-1, -1, 0)
+[0.163941 0.327883 0.25    ] [0.672117 0.836059 0.25    ] (0, 0, 0)
+[0.836059 0.163941 0.75    ] [ 0.836059 -0.327883  0.75    ] (0, -1, 0)
+[0.836059 0.163941 0.75    ] [0.836059 0.672117 0.75    ] (0, 0, 0)
+[0.836059 0.163941 0.75    ] [0.327883 0.163941 0.75    ] (0, 0, 0)
+[0.836059 0.163941 0.75    ] [1.327883 0.163941 0.75    ] (1, 0, 0)
+[0.327883 0.163941 0.75    ] [-0.163941 -0.327883  0.75    ] (-1, -1, 0)
+[0.327883 0.163941 0.75    ] [0.836059 0.672117 0.75    ] (0, 0, 0)
+[0.672117 0.836059 0.25    ] [0.163941 0.836059 0.25    ] (0, 0, 0)
+[0.672117 0.836059 0.25    ] [1.163941 0.836059 0.25    ] (1, 0, 0)
+--------------------------------------------------------------------------------------
+The graph is created. It has 48 edges and 16 nodes
+time taken for reading wavefunction and predict flatness 133.1388771533966
+Number of cpu :  32
+We are using 32 cpus
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 2.4726    -1.4276    14.3624    0.0003     598.6519     (0.03643186098967986+0j) 
+ 2.4726    -1.3562    14.4651    0.0006     1108.2350     (0.07315917334765099+0j) 
+ 2.4726    -1.2848    14.5677    0.0039     7660.4728     (0.18644151734025372+0j) 
+ 2.4726    -1.2134    14.6704    0.0136     26782.0370     (0.3336031095625386+0j) 
+ 2.4726    -1.1420    14.7730    0.0274     54108.5316     (0.4757991873759732+0j) 
+ 2.4726    -1.0707    14.8757    0.0385     76073.6699     (0.5697567448523051+0j) 
+ 2.4726    -0.9993    14.9783    0.0421     83113.2584     (0.6062190497554134+0j) 
+ 2.4726    -0.9279    15.0809    0.0394     77878.3859     (0.600489470463782+0j) 
+ 2.4726    -0.8565    15.1836    0.0353     69721.3684     (0.5828231544194327+0j) 
+ 2.4726    -0.7852    15.2862    0.0329     64974.8451     (0.572874602397121+0j) 
+ 2.4726    -0.7138    15.3889    0.0329     65078.5324     (0.5805427172800877+0j) 
+ 2.4726    -0.6424    15.4915    0.0357     70564.3751     (0.6021964205069821+0j) 
+ 2.4726    -0.5710    15.5941    0.0421     83083.6240     (0.636034281982244+0j) 
+ 2.4726    -0.4996    15.6968    0.0515     101782.7278     (0.6682088013174489+0j) 
+ 2.4726    -0.4283    15.7994    0.0592     117019.3544     (0.6727479992846239+0j) 
+ 2.4726    -0.3569    15.9021    0.0572     112932.5893     (0.6223847806564786+0j) 
+ 2.4726    -0.2855    16.0047    0.0422     83296.0724     (0.5071832284396002+0j) 
+ 2.4726    -0.2141    16.1074    0.0213     42151.3522     (0.3466260581261994+0j) 
+ 2.4726    -0.1428    16.2100    0.0061     11955.0013     (0.19510722760579471+0j) 
+ 2.4726    -0.0714    16.3126    0.0007     1291.4413     (0.0742107631019688+0j) 
+ 2.4726    0.0000    0.0000    0.0002     413.7116     (0.03439520991657717+0j) 
+
+
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 2.4726    1.4276    2.0528    0.0003     598.6491     (0.03643130608833633+0j) 
+ 2.5344    1.4632    1.9502    0.0007     1355.6283     (0.08378682291482159+0j) 
+ 2.5962    1.4989    1.8476    0.0050     9912.7788     (0.22440954384394268+0j) 
+ 2.6580    1.5346    1.7449    0.0174     34409.8186     (0.4087661503470439+0j) 
+ 2.7199    1.5703    1.6423    0.0348     68778.3713     (0.5750580412953987+0j) 
+ 2.7817    1.6060    1.5396    0.0481     95109.0814     (0.6771288329616817+0j) 
+ 2.8435    1.6417    1.4370    0.0511     101042.4239     (0.705251821262302+0j) 
+ 2.9053    1.6774    1.3344    0.0457     90356.4131     (0.6803371865294894+0j) 
+ 2.9671    1.7131    1.2317    0.0383     75695.7726     (0.6415374135850113+0j) 
+ 3.0289    1.7488    1.1291    0.0333     65799.6111     (0.6114384589971025+0j) 
+ 3.0907    1.7844    1.0264    0.0317     62623.4783     (0.6032830501482196+0j) 
+ 3.1526    1.8201    0.9238    0.0335     66241.7310     (0.61774670051968+0j) 
+ 3.2144    1.8558    0.8211    0.0394     77851.5802     (0.6530446329709133+0j) 
+ 3.2762    1.8915    0.7185    0.0488     96394.0935     (0.6942715642924492+0j) 
+ 3.3380    1.9272    0.6159    0.0568     112122.6049     (0.7118073906506603+0j) 
+ 3.3998    1.9629    0.5132    0.0552     109055.6715     (0.6723865042176234+0j) 
+ 3.4616    1.9986    0.4106    0.0409     80737.8255     (0.5608230528062224+0j) 
+ 3.5235    2.0343    0.3079    0.0207     40860.6309     (0.3938041366310975+0j) 
+ 3.5853    2.0700    0.2053    0.0059     11581.4181     (0.2178443870471814+0j) 
+ 3.6471    2.1056    0.1026    0.0007     1396.7639     (0.08021537581160508+0j) 
+ 1.2363    -2.1413    0.0000    0.0003     653.5765     (0.046756419964762104+0j) 
+
+
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 1.2363    2.1413    0.0000    0.0005     965.2028     (0.04728144295576925+0j) 
+ 1.2981    2.0343    0.0000    0.0011     2179.3070     (0.08372555271652417+0j) 
+ 1.3599    1.9272    0.0000    0.0051     10039.7664     (0.19762902520022124+0j) 
+ 1.4217    1.8201    0.0000    0.0150     29708.4802     (0.3441245627003602+0j) 
+ 1.4836    1.7131    0.0000    0.0286     56556.0331     (0.4862158609432035+0j) 
+ 1.5454    1.6060    0.0000    0.0395     78066.2884     (0.5857565790407766+0j) 
+ 1.6072    1.4989    0.0000    0.0433     85609.3619     (0.6290677349584459+0j) 
+ 1.6690    1.3919    0.0000    0.0413     81609.2059     (0.629012607944411+0j) 
+ 1.7308    1.2848    0.0000    0.0379     74815.0348     (0.6124752850474244+0j) 
+ 1.7926    1.1777    0.0000    0.0362     71523.3781     (0.602579867930529+0j) 
+ 1.8544    1.0707    0.0000    0.0373     73625.4535     (0.6110242943479856+0j) 
+ 1.9163    0.9636    0.0000    0.0418     82522.2920     (0.6431998226229136+0j) 
+ 1.9781    0.8565    0.0000    0.0510     100808.2047     (0.6996137747625688+0j) 
+ 2.0399    0.7495    0.0000    0.0643     127031.0372     (0.7654111300008921+0j) 
+ 2.1017    0.6424    0.0000    0.0749     148048.2384     (0.8042818158281267+0j) 
+ 2.1635    0.5353    0.0000    0.0727     143535.1812     (0.7739448085156087+0j) 
+ 2.2253    0.4283    0.0000    0.0537     106132.7414     (0.653098244937969+0j) 
+ 2.2872    0.3212    0.0000    0.0273     53996.8939     (0.4592495264618803+0j) 
+ 2.3490    0.2141    0.0000    0.0079     15576.5789     (0.24715665461653724+0j) 
+ 2.4108    0.1071    0.0000    0.0009     1728.5613     (0.08430585540706749+0j) 
+ 2.4726    0.0000    0.0000    0.0002     413.7116     (0.03439520991657717+0j) 
+
+
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 2.4726    1.4276    6.1548    0.0003     598.6486     (0.03643135035355008+0j) 
+ 2.4108    1.4632    6.2574    0.0005     1040.1482     (0.05972197802838461+0j) 
+ 2.3490    1.4989    6.3601    0.0049     9652.0287     (0.1792672220518864+0j) 
+ 2.2872    1.5346    6.4627    0.0182     35970.8769     (0.3432156101243906+0j) 
+ 2.2253    1.5703    6.5654    0.0371     73382.1803     (0.4895066120667367+0j) 
+ 2.1635    1.6060    6.6680    0.0515     101679.9519     (0.5773295921324821+0j) 
+ 2.1017    1.6417    6.7707    0.0541     106804.0877     (0.5967998990947981+0j) 
+ 2.0399    1.6774    6.8733    0.0471     93015.8746     (0.5630863672750128+0j) 
+ 1.9781    1.7131    6.9759    0.0378     74700.1529     (0.5114104243820473+0j) 
+ 1.9163    1.7488    7.0786    0.0312     61729.9119     (0.47120909918025405+0j) 
+ 1.8544    1.7844    7.1812    0.0284     56032.0032     (0.4527104480122096+0j) 
+ 1.7926    1.8201    7.2839    0.0288     56948.3186     (0.4564972909944605+0j) 
+ 1.7308    1.8558    7.3865    0.0328     64815.3235     (0.4807658770938832+0j) 
+ 1.6690    1.8915    7.4891    0.0397     78484.0029     (0.5153592247160894+0j) 
+ 1.6072    1.9272    7.5918    0.0455     89950.8110     (0.5353074511668844+0j) 
+ 1.5454    1.9629    7.6944    0.0437     86360.6962     (0.5106911147692069+0j) 
+ 1.4836    1.9986    7.7971    0.0318     62912.9832     (0.4271738466835322+0j) 
+ 1.4217    2.0343    7.8997    0.0157     31035.3392     (0.29717057308808864+0j) 
+ 1.3599    2.0700    8.0024    0.0042     8383.9430     (0.15793242516666411+0j) 
+ 1.2981    2.1056    8.1050    0.0006     1156.2182     (0.05805283442376921+0j) 
+ 1.2363    2.1413    8.2076    0.0005     965.2035     (0.04728145491913237+0j) 
+
+
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 2.4726    -1.4276    14.3624    0.0003     598.6519     (0.03643186098967986+0j) 
+ 2.4108    -1.4632    14.4651    0.0007     1355.6155     (0.0837862194355315+0j) 
+ 2.3490    -1.4989    14.5677    0.0050     9912.6999     (0.2244095199962532+0j) 
+ 2.2872    -1.5346    14.6704    0.0174     34409.6098     (0.4087695194853128+0j) 
+ 2.2253    -1.5703    14.7730    0.0348     68777.9990     (0.5750580088281605+0j) 
+ 2.1635    -1.6060    14.8757    0.0481     95108.5677     (0.6771267610238291+0j) 
+ 2.1017    -1.6417    14.9783    0.0511     101041.8379     (0.7052481792092844+0j) 
+ 2.0399    -1.6774    15.0809    0.0457     90355.8372     (0.6803276050306402+0j) 
+ 1.9781    -1.7131    15.1836    0.0383     75695.2610     (0.6415306150993048+0j) 
+ 1.9163    -1.7488    15.2862    0.0333     65799.1672     (0.6114334748757582+0j) 
+ 1.8544    -1.7844    15.3889    0.0317     62623.0683     (0.6032776731272567+0j) 
+ 1.7926    -1.8201    15.4915    0.0335     66241.3166     (0.6177435291590998+0j) 
+ 1.7308    -1.8558    15.5941    0.0394     77851.1469     (0.6530429983736767+0j) 
+ 1.6690    -1.8915    15.6968    0.0488     96393.6694     (0.6942716294477974+0j) 
+ 1.6072    -1.9272    15.7994    0.0568     112122.2639     (0.7118087523127152+0j) 
+ 1.5454    -1.9629    15.9021    0.0552     109055.4895     (0.6723851492556507+0j) 
+ 1.4836    -1.9986    16.0047    0.0409     80737.8032     (0.5608219484639283+0j) 
+ 1.4217    -2.0343    16.1074    0.0207     40860.6805     (0.3938024720894913+0j) 
+ 1.3599    -2.0700    16.2100    0.0059     11581.4504     (0.2178437372799173+0j) 
+ 1.2981    -2.1056    16.3126    0.0007     1396.7651     (0.08021493545957833+0j) 
+ 1.2363    -2.1413    0.0000    0.0003     653.5765     (0.046756419964762104+0j) 
+
+
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 2.4726    -2.8785    12.3115    0.0002     447.3063     (0.036337437668107445+0j) 
+ 2.5334    -2.9838    12.3115    0.0007     1443.5656     (0.06563983248356373+0j) 
+ 2.5942    -3.0891    12.3115    0.0072     14197.7879     (0.20471008628866139+0j) 
+ 2.6550    -3.1944    12.3115    0.0260     51319.0270     (0.393835043516814+0j) 
+ 2.7158    -3.2997    12.3115    0.0526     103876.5665     (0.5695641992909843+0j) 
+ 2.7766    -3.4050    12.3115    0.0732     144581.3356     (0.6832942105646242+0j) 
+ 2.8374    -3.5104    12.3115    0.0779     153835.5614     (0.7199035174629622+0j) 
+ 0.4256    0.6670    12.3115    0.0690     136273.6217     (0.6920431621068992+0j) 
+ 0.4864    0.5617    12.3115    0.0562     111098.8902     (0.6333434895514386+0j) 
+ 0.5472    0.4564    12.3115    0.0468     92540.7057     (0.5773675491073618+0j) 
+ 0.6080    0.3511    12.3115    0.0423     83538.7338     (0.5413010733790673+0j) 
+ 0.6688    0.2457    12.3115    0.0415     82084.4232     (0.5266896358476507+0j) 
+ 0.7296    0.1404    12.3115    0.0437     86321.3528     (0.5299891043209064+0j) 
+ 0.7905    0.0351    12.3115    0.0471     93103.5133     (0.5418950582763917+0j) 
+ 0.8513    -0.0702    12.3115    0.0481     95018.8393     (0.538495292788884+0j) 
+ 0.9121    -0.1755    12.3115    0.0424     83695.5588     (0.499003431765381+0j) 
+ 0.9729    -0.2808    12.3115    0.0296     58537.2023     (0.4143664910864243+0j) 
+ 1.0337    -0.3862    12.3115    0.0150     29702.9742     (0.2950157343658989+0j) 
+ 1.0945    -0.4915    12.3115    0.0049     9663.3854     (0.1690762364396564+0j) 
+ 1.1553    -0.5968    12.3115    0.0010     2025.0124     (0.07441700967864875+0j) 
+ 1.2161    -0.7021    12.3115    0.0005     959.7614     (0.045330997172598156+0j) 
+
+
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 2.4726    1.4276    6.1548    0.0003     598.6486     (0.03643135035355008+0j) 
+ 2.5344    1.4632    6.2574    0.0007     1355.6263     (0.08378678361149261+0j) 
+ 2.5962    1.4989    6.3601    0.0050     9912.7716     (0.22440948798731547+0j) 
+ 2.6580    1.5346    6.4627    0.0174     34409.8034     (0.40876617196755594+0j) 
+ 2.7199    1.5703    6.5654    0.0348     68778.3511     (0.5750580740819811+0j) 
+ 2.7817    1.6060    6.6680    0.0481     95109.0629     (0.6771288673488696+0j) 
+ 2.8435    1.6417    6.7707    0.0511     101042.4110     (0.7052520291179014+0j) 
+ 2.9053    1.6774    6.8733    0.0457     90356.4041     (0.6803375587024925+0j) 
+ 2.9671    1.7131    6.9759    0.0383     75695.7623     (0.6415378000463412+0j) 
+ 3.0289    1.7488    7.0786    0.0333     65799.5954     (0.611439006274394+0j) 
+ 3.0907    1.7844    7.1812    0.0317     62623.4555     (0.6032836621814998+0j) 
+ 3.1526    1.8201    7.2839    0.0335     66241.7009     (0.6177471227308502+0j) 
+ 3.2144    1.8558    7.3865    0.0394     77851.5427     (0.6530452841468757+0j) 
+ 3.2762    1.8915    7.4891    0.0488     96394.0489     (0.6942725870334385+0j) 
+ 3.3380    1.9272    7.5918    0.0568     112122.5575     (0.7118088009688345+0j) 
+ 3.3998    1.9629    7.6944    0.0552     109055.6312     (0.6723881934739807+0j) 
+ 3.4616    1.9986    7.7971    0.0409     80737.8009     (0.5608246299699277+0j) 
+ 3.5235    2.0343    7.8997    0.0207     40860.6220     (0.39380512986866634+0j) 
+ 3.5853    2.0700    8.0024    0.0059     11581.4173     (0.21784478701171758+0j) 
+ 3.6471    2.1056    8.1050    0.0007     1396.7646     (0.0802154635581725+0j) 
+ 1.2363    -2.1413    8.2076    0.0003     653.5771     (0.04675658065700152+0j) 
+
+
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:36: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:131: UserWarning: Tight layout not applied. tight_layout cannot make Axes width small enough to accommodate all Axes decorations
+  fig0.tight_layout()
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:149: UserWarning: Tight layout not applied. tight_layout cannot make Axes width small enough to accommodate all Axes decorations
+  fig3.tight_layout()
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:150: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+time taken for calculating psi along graphs:  372.6265649795532
+Material has chg drop: 0.48876308468320023; chg retention: 0.5112369153167998
+Analyze wavefunction(k=0,0,0) along graph only if charge density retention is > 20.0% (exterimental)
+
+==================================================================================================
+
+Number of bands with nonzero density within 9.1816 and 9.6816: 27
+Mn--Mn (node1--node28) on edge 9 has destructive interference for band:1, spin1
+Mn--Mn (node1--node4) on edge 10 has destructive interference for band:1, spin1
+Mn--Mn (node9--node31) on edge 27 has destructive interference for band:1, spin1
+Mn--Mn (node9--node13) on edge 28 has destructive interference for band:1, spin1
+Mn--Mn (node19--node25) on edge 43 has destructive interference for band:1, spin1
+Mn--Mn (node19--node20) on edge 44 has destructive interference for band:1, spin1
+Mn--Mn (node21--node23) on edge 46 has destructive interference for band:1, spin1
+Mn--Mn (node21--node24) on edge 47 has destructive interference for band:1, spin1
+Mn--Mn (node1--node6) on edge 8 has destructive interference for band:4, spin1
+Mn--Mn (node1--node4) on edge 10 has destructive interference for band:4, spin1
+Mn--Mn (node4--node6) on edge 15 has destructive interference for band:4, spin1
+Mn--Mn (node9--node11) on edge 26 has destructive interference for band:4, spin1
+Mn--Mn (node9--node13) on edge 28 has destructive interference for band:4, spin1
+Mn--Mn (node11--node13) on edge 32 has destructive interference for band:4, spin1
+Mn--Mn (node1--node4) on edge 10 has destructive interference for band:6, spin1
+Mn--Mn (node4--node32) on edge 16 has destructive interference for band:6, spin1
+Mn--Mn (node9--node13) on edge 28 has destructive interference for band:6, spin1
+Mn--Mn (node11--node13) on edge 32 has destructive interference for band:6, spin1
+Mn--Mn (node1--node28) on edge 9 has destructive interference for band:13, spin0
+Mn--Mn (node1--node4) on edge 10 has destructive interference for band:13, spin0
+Mn--Mn (node9--node31) on edge 27 has destructive interference for band:13, spin0
+Mn--Mn (node9--node13) on edge 28 has destructive interference for band:13, spin0
+Mn--Mn (node19--node25) on edge 43 has destructive interference for band:13, spin0
+Mn--Mn (node19--node20) on edge 44 has destructive interference for band:13, spin0
+Mn--Mn (node21--node23) on edge 46 has destructive interference for band:13, spin0
+Mn--Mn (node21--node24) on edge 47 has destructive interference for band:13, spin0
+Mn--Mn (node1--node28) on edge 9 has destructive interference for band:15, spin0
+Mn--Mn (node1--node4) on edge 10 has destructive interference for band:15, spin0
+Mn--Mn (node9--node31) on edge 27 has destructive interference for band:15, spin0
+Mn--Mn (node9--node13) on edge 28 has destructive interference for band:15, spin0
+Mn--Mn (node1--node27) on edge 7 has destructive interference for band:17, spin0
+Mn--Mn (node19--node25) on edge 43 has destructive interference for band:17, spin0
+Mn--Mn (node19--node20) on edge 44 has destructive interference for band:17, spin0
+Mn--Mn (node21--node23) on edge 46 has destructive interference for band:17, spin0
+Mn--Mn (node21--node24) on edge 47 has destructive interference for band:17, spin0
+Mn--Mn (node0--node1) on edge 0 has destructive interference for band:18, spin0
+Mn--Mn (node0--node4) on edge 3 has destructive interference for band:18, spin0
+Mn--Mn (node0--node6) on edge 5 has destructive interference for band:18, spin0
+Mn--Mn (node1--node18) on edge 6 has destructive interference for band:18, spin0
+Mn--Mn (node1--node28) on edge 9 has destructive interference for band:18, spin0
+Mn--Mn (node1--node4) on edge 10 has destructive interference for band:18, spin0
+Mn--Mn (node4--node18) on edge 14 has destructive interference for band:18, spin0
+Mn--Mn (node6--node18) on edge 17 has destructive interference for band:18, spin0
+Mn--Mn (node7--node9) on edge 19 has destructive interference for band:18, spin0
+Mn--Mn (node7--node11) on edge 21 has destructive interference for band:18, spin0
+Mn--Mn (node7--node13) on edge 23 has destructive interference for band:18, spin0
+Mn--Mn (node9--node14) on edge 25 has destructive interference for band:18, spin0
+Mn--Mn (node9--node31) on edge 27 has destructive interference for band:18, spin0
+Mn--Mn (node9--node13) on edge 28 has destructive interference for band:18, spin0
+Mn--Mn (node11--node14) on edge 30 has destructive interference for band:18, spin0
+Mn--Mn (node13--node14) on edge 37 has destructive interference for band:18, spin0
+Mn--Mn (node19--node25) on edge 43 has destructive interference for band:18, spin0
+Mn--Mn (node19--node20) on edge 44 has destructive interference for band:18, spin0
+Mn--Mn (node21--node23) on edge 46 has destructive interference for band:18, spin0
+Mn--Mn (node21--node24) on edge 47 has destructive interference for band:18, spin0
+Mn--Mn (node0--node1) on edge 0 has destructive interference for band:19, spin0
+Mn--Mn (node0--node4) on edge 3 has destructive interference for band:19, spin0
+Mn--Mn (node0--node6) on edge 5 has destructive interference for band:19, spin0
+Mn--Mn (node1--node18) on edge 6 has destructive interference for band:19, spin0
+Mn--Mn (node4--node18) on edge 14 has destructive interference for band:19, spin0
+Mn--Mn (node6--node18) on edge 17 has destructive interference for band:19, spin0
+Mn--Mn (node7--node9) on edge 19 has destructive interference for band:19, spin0
+Mn--Mn (node7--node11) on edge 21 has destructive interference for band:19, spin0
+Mn--Mn (node7--node13) on edge 23 has destructive interference for band:19, spin0
+Mn--Mn (node9--node14) on edge 25 has destructive interference for band:19, spin0
+Mn--Mn (node11--node14) on edge 30 has destructive interference for band:19, spin0
+Mn--Mn (node13--node14) on edge 37 has destructive interference for band:19, spin0
+Mn--Mn (node1--node6) on edge 8 has destructive interference for band:20, spin0
+Mn--Mn (node19--node25) on edge 43 has destructive interference for band:20, spin0
+Mn--Mn (node19--node20) on edge 44 has destructive interference for band:20, spin0
+Mn--Mn (node21--node23) on edge 46 has destructive interference for band:20, spin0
+Mn--Mn (node21--node24) on edge 47 has destructive interference for band:20, spin0
+Mn--Mn (node1--node28) on edge 9 has destructive interference for band:21, spin0
+Mn--Mn (node2--node26) on edge 11 has destructive interference for band:21, spin0
+Mn--Mn (node2--node3) on edge 12 has destructive interference for band:21, spin0
+Mn--Mn (node3--node21) on edge 13 has destructive interference for band:21, spin0
+Mn--Mn (node8--node12) on edge 24 has destructive interference for band:21, spin0
+Mn--Mn (node10--node12) on edge 29 has destructive interference for band:21, spin0
+Mn--Mn (node12--node20) on edge 35 has destructive interference for band:21, spin0
+Mn--Mn (node12--node19) on edge 36 has destructive interference for band:21, spin0
+Mn--Mn (node21--node22) on edge 45 has destructive interference for band:21, spin0
+Mn--Mn (node4--node32) on edge 16 has destructive interference for band:22, spin0
+Mn--Mn (node9--node11) on edge 26 has destructive interference for band:22, spin0
+Mn--Mn (node11--node30) on edge 33 has destructive interference for band:23, spin0
+../Calc_wavecar/mp-1015.out
+mp-1015.out
+Traceback (most recent call last):
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/main.py", line 43, in <module>
+    os.chdir(filepath)
+NotADirectoryError: [Errno 20] Not a directory: '/net/scratch/a97824ab/WAVECAR_project/Calc_wavecar/mp-1015.out'
+../Calc_wavecar/mp-1016
+mp-1016
+Creating GCOEFF.txt ...
+Output: 
+ record length  =       42320  spins =           2  prec flag        45200
+ no. k points =          11
+ no. bands =         128
+ max. energy =   680.000000    
+ real space lattice vectors:
+ a1 =  -2.02003694       2.02003694       8.01710987    
+ a2 =   2.02003694      -2.02003694       8.01710987    
+ a3 =   2.02003694       2.02003694      -8.01710987    
+  
+  
+ volume unit cell =   130.856857    
+ reciprocal lattice vectors:
+ b1 =   0.00000000       1.55521548      0.391860992    
+ b2 =   1.55521548       0.00000000      0.391860992    
+ b3 =   1.55521548       1.55521548       0.00000000    
+ reciprocal lattice vector magnitudes:
+   1.60382354       1.60382354       2.19940686    
+  
+ max. no. G values; 1,2,3 =          19          19          19
+  
+ estimated max. no. plane waves =        6447
+  
+ ******
+ reading spin            1
+ k point #           1   input no. of plane waves =        5256
+ k value =  0.125000000      0.125000000      0.125000000    
+ k point #           2   input no. of plane waves =        5254
+ k value =  0.375000000      0.125000000      0.125000000    
+ k point #           3   input no. of plane waves =        5289
+ k value = -0.125000000      0.125000000      0.125000000    
+ k point #           4   input no. of plane waves =        5246
+ k value =  0.375000000      0.375000000      0.125000000    
+ k point #           5   input no. of plane waves =        5257
+ k value = -0.375000000      0.375000000      0.125000000    
+ k point #           6   input no. of plane waves =        5286
+ k value = -0.125000000      0.375000000      0.125000000    
+ k point #           7   input no. of plane waves =        5285
+ k value = -0.375000000     -0.375000000      0.125000000    
+ k point #           8   input no. of plane waves =        5275
+ k value = -0.125000000     -0.375000000      0.125000000    
+ k point #           9   input no. of plane waves =        5258
+ k value = -0.125000000     -0.125000000      0.125000000    
+ k point #          10   input no. of plane waves =        5288
+ k value = -0.375000000      0.375000000      0.375000000    
+ k point #          11   input no. of plane waves =        5282
+ k value = -0.375000000     -0.375000000      0.375000000    
+  
+ ******
+ reading spin            2
+ k point #           1   input no. of plane waves =        5256
+ k value =  0.125000000      0.125000000      0.125000000    
+ k point #           2   input no. of plane waves =        5254
+ k value =  0.375000000      0.125000000      0.125000000    
+ k point #           3   input no. of plane waves =        5289
+ k value = -0.125000000      0.125000000      0.125000000    
+ k point #           4   input no. of plane waves =        5246
+ k value =  0.375000000      0.375000000      0.125000000    
+ k point #           5   input no. of plane waves =        5257
+ k value = -0.375000000      0.375000000      0.125000000    
+ k point #           6   input no. of plane waves =        5286
+ k value = -0.125000000      0.375000000      0.125000000    
+ k point #           7   input no. of plane waves =        5285
+ k value = -0.375000000     -0.375000000      0.125000000    
+ k point #           8   input no. of plane waves =        5275
+ k value = -0.125000000     -0.375000000      0.125000000    
+ k point #           9   input no. of plane waves =        5258
+ k value = -0.125000000     -0.125000000      0.125000000    
+ k point #          10   input no. of plane waves =        5288
+ k value = -0.375000000      0.375000000      0.375000000    
+ k point #          11   input no. of plane waves =        5282
+ k value = -0.375000000     -0.375000000      0.375000000    
+
+Errors: 
+------GCOEFF created------------
+
+=================================== 
+Reading GCOEFF.txt ....               
+
+no. spin values = 2
+no. k points    = 11
+no. bands       = 128
+real space lattice vectors:
+a1 = [-2.02003694  2.02003694  8.01710987]
+a2 = [ 2.02003694 -2.02003694  8.01710987]
+a3 = [ 2.02003694  2.02003694 -8.01710987]
+
+volume unit cell = 130.85684631489514
+
+reciprocal lattice vectors:
+b1 = [0.         1.55521548 0.39186099]
+b2 = [1.55521548 0.         0.39186099]
+b3 = [1.55521548 1.55521548 0.        ]
+
+reading plane wave coefficients...
+k point #1
+k point #2
+k point #3
+k point #4
+k point #5
+k point #6
+k point #7
+k point #8
+k point #9
+k point #10
+k point #11
+k point #1
+k point #2
+k point #3
+k point #4
+k point #5
+k point #6
+k point #7
+k point #8
+k point #9
+k point #10
+k point #11
+GCOEFF reading complete------------------------------------
+===================================================
+
+kpoints used in the DFT calculation:
+ [[ 0.125  0.125  0.125]
+ [ 0.375  0.125  0.125]
+ [-0.125  0.125  0.125]
+ [ 0.375  0.375  0.125]
+ [-0.375  0.375  0.125]
+ [-0.125  0.375  0.125]
+ [-0.375 -0.375  0.125]
+ [-0.125 -0.375  0.125]
+ [-0.125 -0.125  0.125]
+ [-0.375  0.375  0.375]
+ [-0.375 -0.375  0.375]]
+======================================
+
+Emin: -0.5, Emax: 0.0, Sublattice element: Pu
+Structure: 
+ ========================
+ Full Formula (Pu2 Ge4)
+Reduced Formula: PuGe2
+abc   :   8.510884   8.510884   8.510884
+angles: 152.539921 152.539921  39.225359
+pbc   :       True       True       True
+Sites (6)
+  #  SP           a         b    c
+---  ----  --------  --------  ---
+  0  Pu    0.25      0.75      0.5
+  1  Pu    0.5       0.5       0
+  2  Ge    0.829683  0.329683  0.5
+  3  Ge    0.079683  0.079683  0
+  4  Ge    0.670317  0.170317  0.5
+  5  Ge    0.920317  0.920317  0 
+
+Sublattice Structure: 
+ ========================
+ Full Formula (Pu2)
+Reduced Formula: Pu
+abc   :   8.510884   8.510884   8.510884
+angles: 152.539921 152.539921  39.225359
+pbc   :       True       True       True
+Sites (2)
+  #  SP       a     b    c
+---  ----  ----  ----  ---
+  0  Pu    0.25  0.75  0.5
+  1  Pu    0.5   0.5   0 
+
+
+----------------------------
+Structure graph:
+initial_coord    final_coord      image_in_periodic_cell
+ -------------------------------------------------
+--------------------------------------------------------------------------------------
+The graph is created. It has 0 edges and 2 nodes
+time taken for reading wavefunction and predict flatness 68.5314416885376
+Number of cpu :  32
+We are using 32 cpus
+MoTTY X11 proxy: Authorisation not recognised
+
+[36mIn case you are trying to start a graphical application with "sudo", read this article in order to avoid this issue:
+[35m[4mhttps://blog.mobatek.net/post/how-to-keep-X11-display-after-su-or-sudo/[0m
+
+
+time taken for calculating psi along graphs:  0.17859220504760742
+Traceback (most recent call last):
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/main.py", line 103, in <module>
+    plot_extended_graph(extended_graph, n_samp_pts, wavecar, plot= 'rho_r' , frac_coords_bool =True, atom_label=False, nodenum_label=False)
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/extended_graph.py", line 125, in plot_extended_graph
+    for nr in range(nrow):
+                    ^^^^
+UnboundLocalError: cannot access local variable 'nrow' where it is not associated with a value
+../Calc_wavecar/mp-1016.out
+mp-1016.out
+Traceback (most recent call last):
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/main.py", line 43, in <module>
+    os.chdir(filepath)
+NotADirectoryError: [Errno 20] Not a directory: '/net/scratch/a97824ab/WAVECAR_project/Calc_wavecar/mp-1016.out'
+../Calc_wavecar/mp-1023
+mp-1023
+Creating GCOEFF.txt ...
+Output: 
+ record length  =      155072  spins =           2  prec flag        45200
+ no. k points =           4
+ no. bands =         256
+ max. energy =   680.000000    
+ real space lattice vectors:
+ a1 =   4.13985586      -7.17044020       0.00000000    
+ a2 =   4.13985586       7.17044020       0.00000000    
+ a3 =   0.00000000       0.00000000       8.08197784    
+  
+  
+ volume unit cell =   479.820404    
+ reciprocal lattice vectors:
+ b1 =  0.758865237     -0.438131094       0.00000000    
+ b2 =  0.758865237      0.438131094      -0.00000000    
+ b3 =  -0.00000000       0.00000000      0.777431667    
+ reciprocal lattice vector magnitudes:
+  0.876262128      0.876262128      0.777431667    
+  
+ max. no. G values; 1,2,3 =          18          18          18
+  
+ estimated max. no. plane waves =       21715
+  
+ ******
+ reading spin            1
+ k point #           1   input no. of plane waves =       19361
+ k value =   0.00000000       0.00000000       0.00000000    
+ k point #           2   input no. of plane waves =       19264
+ k value =  0.500000000       1.43897167E-17   0.00000000    
+ k point #           3   input no. of plane waves =       19384
+ k value =   0.00000000       0.00000000      0.333333343    
+ k point #           4   input no. of plane waves =       19296
+ k value =  0.500000000       1.43897167E-17  0.333333343    
+  
+ ******
+ reading spin            2
+ k point #           1   input no. of plane waves =       19361
+ k value =   0.00000000       0.00000000       0.00000000    
+ k point #           2   input no. of plane waves =       19264
+ k value =  0.500000000       1.43897167E-17   0.00000000    
+ k point #           3   input no. of plane waves =       19384
+ k value =   0.00000000       0.00000000      0.333333343    
+ k point #           4   input no. of plane waves =       19296
+ k value =  0.500000000       1.43897167E-17  0.333333343    
+
+Errors: 
+------GCOEFF created------------
+
+=================================== 
+Reading GCOEFF.txt ....               
+
+no. spin values = 2
+no. k points    = 4
+no. bands       = 256
+real space lattice vectors:
+a1 = [ 4.13985586 -7.1704402   0.        ]
+a2 = [4.13985586 7.1704402  0.        ]
+a3 = [0.         0.         8.08197784]
+
+volume unit cell = 479.82037904745687
+
+reciprocal lattice vectors:
+b1 = [ 0.75886524 -0.43813109  0.        ]
+b2 = [ 0.75886524  0.43813109 -0.        ]
+b3 = [-0.          0.          0.77743167]
+
+reading plane wave coefficients...
+k point #1
+Traceback (most recent call last):
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/main.py", line 54, in <module>
+    wavecar, Fouriergrid , fermi = get_wavecar_band_data(exe_model_path)    # [-1:1] eV for bandwidth=2
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/create_read_GCOEFF.py", line 12, in get_wavecar_band_data
+    wavecar = read_gcoeff()
+              ^^^^^^^^^^^^^
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/create_read_GCOEFF.py", line 166, in read_gcoeff
+    igall[ispin, iwk, iplane, :] = [ig1, ig2, ig3]
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: index 15000 is out of bounds for axis 2 with size 15000
+../Calc_wavecar/mp-1023.out
+mp-1023.out
+Traceback (most recent call last):
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/main.py", line 43, in <module>
+    os.chdir(filepath)
+NotADirectoryError: [Errno 20] Not a directory: '/net/scratch/a97824ab/WAVECAR_project/Calc_wavecar/mp-1023.out'
+../Calc_wavecar/mp-1029
+mp-1029
+Creating GCOEFF.txt ...
+Output: 
+ record length  =       20160  spins =           2  prec flag        45200
+ no. k points =          10
+ no. bands =         128
+ max. energy =   680.000000    
+ real space lattice vectors:
+ a1 =  -3.14154005      -3.14154005       0.00000000    
+ a2 =  -3.14154005       0.00000000      -3.14154005    
+ a3 =   0.00000000      -3.14154005      -3.14154005    
+  
+  
+ volume unit cell =   62.0094337    
+ reciprocal lattice vectors:
+ b1 =  -1.00001681      -1.00001681       1.00001681    
+ b2 =  -1.00001681       1.00001681      -1.00001681    
+ b3 =   1.00001681      -1.00001681      -1.00001681    
+ reciprocal lattice vector magnitudes:
+   1.73207986       1.73207986       1.73207986    
+  
+ max. no. G values; 1,2,3 =          10          10          10
+  
+ estimated max. no. plane waves =        3393
+  
+ ******
+ reading spin            1
+ k point #           1   input no. of plane waves =        2445
+ k value =   0.00000000       0.00000000       0.00000000    
+ k point #           2   input no. of plane waves =        2520
+ k value =  0.200000003       6.25105145E-18  -7.01516128E-16
+ k point #           3   input no. of plane waves =        2479
+ k value =  0.400000006      -4.10766601E-18  -4.97235572E-15
+ k point #           4   input no. of plane waves =        2517
+ k value =  0.200000003      0.200000003       2.41497497E-17
+ k point #           5   input no. of plane waves =        2512
+ k value =  0.400000006      0.200000003      -4.27083965E-15
+ k point #           6   input no. of plane waves =        2496
+ k value = -0.400000006      0.200000003      -4.98798687E-15
+ k point #           7   input no. of plane waves =        2507
+ k value = -0.200000003      0.200000003       1.30392347E-15
+ k point #           8   input no. of plane waves =        2498
+ k value =  0.400000006      0.400000006       3.62912052E-18
+ k point #           9   input no. of plane waves =        2484
+ k value = -0.400000006      0.400000006      -7.03269433E-16
+ k point #          10   input no. of plane waves =        2488
+ k value = -0.400000006      0.400000006      0.200000003    
+  
+ ******
+ reading spin            2
+ k point #           1   input no. of plane waves =        2445
+ k value =   0.00000000       0.00000000       0.00000000    
+ k point #           2   input no. of plane waves =        2520
+ k value =  0.200000003       6.25105145E-18  -7.01516128E-16
+ k point #           3   input no. of plane waves =        2479
+ k value =  0.400000006      -4.10766601E-18  -4.97235572E-15
+ k point #           4   input no. of plane waves =        2517
+ k value =  0.200000003      0.200000003       2.41497497E-17
+ k point #           5   input no. of plane waves =        2512
+ k value =  0.400000006      0.200000003      -4.27083965E-15
+ k point #           6   input no. of plane waves =        2496
+ k value = -0.400000006      0.200000003      -4.98798687E-15
+ k point #           7   input no. of plane waves =        2507
+ k value = -0.200000003      0.200000003       1.30392347E-15
+ k point #           8   input no. of plane waves =        2498
+ k value =  0.400000006      0.400000006       3.62912052E-18
+ k point #           9   input no. of plane waves =        2484
+ k value = -0.400000006      0.400000006      -7.03269433E-16
+ k point #          10   input no. of plane waves =        2488
+ k value = -0.400000006      0.400000006      0.200000003    
+
+Errors: 
+------GCOEFF created------------
+
+=================================== 
+Reading GCOEFF.txt ....               
+
+no. spin values = 2
+no. k points    = 10
+no. bands       = 128
+real space lattice vectors:
+a1 = [-3.14154005 -3.14154005  0.        ]
+a2 = [-3.14154005  0.         -3.14154005]
+a3 = [ 0.         -3.14154005 -3.14154005]
+
+volume unit cell = 62.00943835303065
+
+reciprocal lattice vectors:
+b1 = [-1.00001681 -1.00001681  1.00001681]
+b2 = [-1.00001681  1.00001681 -1.00001681]
+b3 = [ 1.00001681 -1.00001681 -1.00001681]
+
+reading plane wave coefficients...
+k point #1
+k point #2
+k point #3
+k point #4
+k point #5
+k point #6
+k point #7
+k point #8
+k point #9
+k point #10
+k point #1
+k point #2
+k point #3
+k point #4
+k point #5
+k point #6
+k point #7
+k point #8
+k point #9
+k point #10
+GCOEFF reading complete------------------------------------
+===================================================
+
+kpoints used in the DFT calculation:
+ [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 2.00000003e-01  6.25105145e-18 -7.01516128e-16]
+ [ 4.00000006e-01 -4.10766601e-18 -4.97235572e-15]
+ [ 2.00000003e-01  2.00000003e-01  2.41497497e-17]
+ [ 4.00000006e-01  2.00000003e-01 -4.27083965e-15]
+ [-4.00000006e-01  2.00000003e-01 -4.98798687e-15]
+ [-2.00000003e-01  2.00000003e-01  1.30392347e-15]
+ [ 4.00000006e-01  4.00000006e-01  3.62912052e-18]
+ [-4.00000006e-01  4.00000006e-01 -7.03269433e-16]
+ [-4.00000006e-01  4.00000006e-01  2.00000003e-01]]
+======================================
+
+Emin: -0.5, Emax: 0.0, Sublattice element: F
+Structure: 
+ ========================
+ Full Formula (Ba1 F2)
+Reduced Formula: BaF2
+abc   :   4.442808   4.442808   4.442808
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (3)
+  #  SP       a     b     c
+---  ----  ----  ----  ----
+  0  Ba    0     0     0
+  1  F     0.25  0.25  0.25
+  2  F     0.75  0.75  0.75 
+
+Sublattice Structure: 
+ ========================
+ Full Formula (F2)
+Reduced Formula: F2
+abc   :   4.442808   4.442808   4.442808
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (2)
+  #  SP       a     b     c
+---  ----  ----  ----  ----
+  0  F     0.25  0.25  0.25
+  1  F     0.75  0.75  0.75 
+
+
+----------------------------
+Structure graph:
+initial_coord    final_coord      image_in_periodic_cell
+ -------------------------------------------------
+[0.25 0.25 0.25] [ 0.75  0.75 -0.25] (0, 0, -1)
+[0.25 0.25 0.25] [ 0.75 -0.25  0.75] (0, -1, 0)
+[0.25 0.25 0.25] [-0.25  0.75  0.75] (-1, 0, 0)
+[0.25 0.25 0.25] [ 0.75 -0.25 -0.25] (0, -1, -1)
+[0.25 0.25 0.25] [-0.25  0.75 -0.25] (-1, 0, -1)
+[0.25 0.25 0.25] [-0.25 -0.25  0.75] (-1, -1, 0)
+--------------------------------------------------------------------------------------
+The graph is created. It has 6 edges and 2 nodes
+time taken for reading wavefunction and predict flatness 30.395103931427002
+Number of cpu :  32
+We are using 32 cpus
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/extended_graph.py:48: RuntimeWarning: invalid value encountered in scalar divide
+  chg_drop = (max(data['density_along_path'])-min(data['density_along_path']))/max(data['density_along_path']))
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/extended_graph.py:150: RuntimeWarning: invalid value encountered in divide
+  gradient_line_3D(ax, x1, y1, z1, x2, y2, z2, data['rho_r_along_path']/np.mean(quantity_along_paths))  ##color normalized within all the paths
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:27: RuntimeWarning: invalid value encountered in scalar divide
+  i[2]['chg_drop'] = (np.nanmax(truncated_density_along_path)-np.nanmin(truncated_density_along_path))/np.nanmax(truncated_density_along_path)
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:28: RuntimeWarning: invalid value encountered in scalar divide
+  i[2]['chg_retention'] = (np.nanmin(truncated_density_along_path))/np.nanmax(truncated_density_along_path)
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:36: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+time taken for calculating psi along graphs:  7.441122055053711
+Material has chg drop: nan; chg retention: nan
+../Calc_wavecar/mp-1029.out
+mp-1029.out
+Traceback (most recent call last):
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/main.py", line 43, in <module>
+    os.chdir(filepath)
+NotADirectoryError: [Errno 20] Not a directory: '/net/scratch/a97824ab/WAVECAR_project/Calc_wavecar/mp-1029.out'
+../Calc_wavecar/mp-1031
+mp-1031
+Creating GCOEFF.txt ...
+Output: 
+ record length  =       17456  spins =           2  prec flag        45200
+ no. k points =          10
+ no. bands =         128
+ max. energy =   680.000000    
+ real space lattice vectors:
+ a1 =   3.77216911       0.00000000       0.00000000    
+ a2 =   0.00000000       3.77216911       0.00000000    
+ a3 =   0.00000000       0.00000000       3.77216911    
+  
+  
+ volume unit cell =   53.6751709    
+ reciprocal lattice vectors:
+ b1 =   1.66566908       0.00000000       0.00000000    
+ b2 =   0.00000000       1.66566908       0.00000000    
+ b3 =   0.00000000       0.00000000       1.66566908    
+ reciprocal lattice vector magnitudes:
+   1.66566908       1.66566908       1.66566908    
+  
+ max. no. G values; 1,2,3 =           9           9           9
+  
+ estimated max. no. plane waves =        3054
+  
+ ******
+ reading spin            1
+ k point #           1   input no. of plane waves =        2145
+ k value =   8.33333358E-02   8.33333358E-02   8.33333358E-02
+ k point #           2   input no. of plane waves =        2155
+ k value =  0.250000000       8.33333358E-02   8.33333358E-02
+ k point #           3   input no. of plane waves =        2150
+ k value =  0.416666657       8.33333358E-02   8.33333358E-02
+ k point #           4   input no. of plane waves =        2164
+ k value =  0.250000000      0.250000000       8.33333358E-02
+ k point #           5   input no. of plane waves =        2159
+ k value =  0.416666657      0.250000000       8.33333358E-02
+ k point #           6   input no. of plane waves =        2153
+ k value =  0.416666657      0.416666657       8.33333358E-02
+ k point #           7   input no. of plane waves =        2169
+ k value =  0.250000000      0.250000000      0.250000000    
+ k point #           8   input no. of plane waves =        2173
+ k value =  0.416666657      0.250000000      0.250000000    
+ k point #           9   input no. of plane waves =        2160
+ k value =  0.416666657      0.416666657      0.250000000    
+ k point #          10   input no. of plane waves =        2182
+ k value =  0.416666657      0.416666657      0.416666657    
+  
+ ******
+ reading spin            2
+ k point #           1   input no. of plane waves =        2145
+ k value =   8.33333358E-02   8.33333358E-02   8.33333358E-02
+ k point #           2   input no. of plane waves =        2155
+ k value =  0.250000000       8.33333358E-02   8.33333358E-02
+ k point #           3   input no. of plane waves =        2150
+ k value =  0.416666657       8.33333358E-02   8.33333358E-02
+ k point #           4   input no. of plane waves =        2164
+ k value =  0.250000000      0.250000000       8.33333358E-02
+ k point #           5   input no. of plane waves =        2159
+ k value =  0.416666657      0.250000000       8.33333358E-02
+ k point #           6   input no. of plane waves =        2153
+ k value =  0.416666657      0.416666657       8.33333358E-02
+ k point #           7   input no. of plane waves =        2169
+ k value =  0.250000000      0.250000000      0.250000000    
+ k point #           8   input no. of plane waves =        2173
+ k value =  0.416666657      0.250000000      0.250000000    
+ k point #           9   input no. of plane waves =        2160
+ k value =  0.416666657      0.416666657      0.250000000    
+ k point #          10   input no. of plane waves =        2182
+ k value =  0.416666657      0.416666657      0.416666657    
+
+Errors: 
+------GCOEFF created------------
+
+=================================== 
+Reading GCOEFF.txt ....               
+
+no. spin values = 2
+no. k points    = 10
+no. bands       = 128
+real space lattice vectors:
+a1 = [3.77216911 0.         0.        ]
+a2 = [0.         3.77216911 0.        ]
+a3 = [0.         0.         3.77216911]
+
+volume unit cell = 53.675174254744704
+
+reciprocal lattice vectors:
+b1 = [1.66566908 0.         0.        ]
+b2 = [0.         1.66566908 0.        ]
+b3 = [0.         0.         1.66566908]
+
+reading plane wave coefficients...
+k point #1
+k point #2
+k point #3
+k point #4
+k point #5
+k point #6
+k point #7
+k point #8
+k point #9
+k point #10
+k point #1
+k point #2
+k point #3
+k point #4
+k point #5
+k point #6
+k point #7
+k point #8
+k point #9
+k point #10
+GCOEFF reading complete------------------------------------
+===================================================
+
+kpoints used in the DFT calculation:
+ [[0.08333334 0.08333334 0.08333334]
+ [0.25       0.08333334 0.08333334]
+ [0.41666666 0.08333334 0.08333334]
+ [0.25       0.25       0.08333334]
+ [0.41666666 0.25       0.08333334]
+ [0.41666666 0.41666666 0.08333334]
+ [0.25       0.25       0.25      ]
+ [0.41666666 0.25       0.25      ]
+ [0.41666666 0.41666666 0.25      ]
+ [0.41666666 0.41666666 0.41666666]]
+======================================
+
+Emin: 0.5, Emax: 1.0, Sublattice element: Gd
+Structure: 
+ ========================
+ Full Formula (Gd1 Cd1)
+Reduced Formula: GdCd
+abc   :   3.772169   3.772169   3.772169
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (2)
+  #  SP      a    b    c
+---  ----  ---  ---  ---
+  0  Gd    0.5  0.5  0.5
+  1  Cd    0    0    0 
+
+Sublattice Structure: 
+ ========================
+ Full Formula (Gd1)
+Reduced Formula: Gd
+abc   :   3.772169   3.772169   3.772169
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (1)
+  #  SP      a    b    c
+---  ----  ---  ---  ---
+  0  Gd    0.5  0.5  0.5 
+
+
+----------------------------
+Structure graph:
+initial_coord    final_coord      image_in_periodic_cell
+ -------------------------------------------------
+[0.5 0.5 0.5] [1.5 0.5 0.5] (1, 0, 0)
+[0.5 0.5 0.5] [0.5 1.5 0.5] (0, 1, 0)
+[0.5 0.5 0.5] [0.5 0.5 1.5] (0, 0, 1)
+--------------------------------------------------------------------------------------
+The graph is created. It has 3 edges and 1 nodes
+time taken for reading wavefunction and predict flatness 26.757732391357422
+Number of cpu :  32
+We are using 32 cpus
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 1.8861    1.8861    1.8861    0.0000     0.0098     (5.175792384217829e-07+0j) 
+ 2.0747    1.8861    1.8861    0.0000     0.0503     (1.8280853025593348e-06+0j) 
+ 2.2633    1.8861    1.8861    0.0000     0.1176     (2.743380571548086e-06+0j) 
+ 2.4519    1.8861    1.8861    0.0000     0.1335     (2.8339554129824387e-06+0j) 
+ 2.6405    1.8861    1.8861    0.0000     0.0980     (2.328494033708239e-06+0j) 
+ 2.8291    1.8861    1.8861    0.0000     0.0583     (1.710602438613074e-06+0j) 
+ 3.0177    1.8861    1.8861    0.0000     0.0394     (1.391681452885251e-06+0j) 
+ 3.2063    1.8861    1.8861    0.0000     0.0369     (1.418885585887897e-06+0j) 
+ 3.3950    1.8861    1.8861    0.0000     0.0400     (1.5265989190496936e-06+0j) 
+ 3.5836    1.8861    1.8861    0.0000     0.0430     (1.603831121068572e-06+0j) 
+ 0.0000    1.8861    1.8861    0.0000     0.0440     (1.6304098726037085e-06+0j) 
+ 0.1886    1.8861    1.8861    0.0000     0.0430     (1.603832947212131e-06+0j) 
+ 0.3772    1.8861    1.8861    0.0000     0.0400     (1.5266016719769565e-06+0j) 
+ 0.5658    1.8861    1.8861    0.0000     0.0369     (1.4188895149847634e-06+0j) 
+ 0.7544    1.8861    1.8861    0.0000     0.0394     (1.3916869841401236e-06+0j) 
+ 0.9430    1.8861    1.8861    0.0000     0.0583     (1.710606260971421e-06+0j) 
+ 1.1317    1.8861    1.8861    0.0000     0.0980     (2.328490440966997e-06+0j) 
+ 1.3203    1.8861    1.8861    0.0000     0.1335     (2.833947115525927e-06+0j) 
+ 1.5089    1.8861    1.8861    0.0000     0.1176     (2.743371286343151e-06+0j) 
+ 1.6975    1.8861    1.8861    0.0000     0.0503     (1.828076523941746e-06+0j) 
+ 1.8861    1.8861    1.8861    0.0000     0.0098     (5.175792384217829e-07+0j) 
+
+
+  x       y        z      rho(r)      CHGCARvalue      Sum(abs(wavfunc)) 
+ -------------------------------------------------------------------
+ 1.8861    1.8861    1.8861    0.0000     0.0098     (5.175792384217829e-07+0j) 
+ 1.8861    2.0747    1.8861    0.0000     0.0511     (1.846871937162392e-06+0j) 
+ 1.8861    2.2633    1.8861    0.0000     0.1966     (3.535045363830838e-06+0j) 
+ 1.8861    2.4519    1.8861    0.0000     0.3687     (4.712868624274127e-06+0j) 
+ 1.8861    2.6405    1.8861    0.0000     0.4124     (4.877127300611542e-06+0j) 
+ 1.8861    2.8291    1.8861    0.0000     0.3288     (4.274523885939989e-06+0j) 
+ 1.8861    3.0177    1.8861    0.0000     0.2327     (3.5681228899335045e-06+0j) 
+ 1.8861    3.2063    1.8861    0.0000     0.1744     (3.1245947371062776e-06+0j) 
+ 1.8861    3.3950    1.8861    0.0000     0.1431     (2.8638437808215174e-06+0j) 
+ 1.8861    3.5836    1.8861    0.0000     0.1283     (2.730235567369514e-06+0j) 
+ 1.8861    0.0000    1.8861    0.0000     0.1245     (2.694693047419451e-06+0j) 
+ 1.8861    0.1886    1.8861    0.0000     0.1283     (2.730243294535674e-06+0j) 
+ 1.8861    0.3772    1.8861    0.0000     0.1431     (2.8638521720407706e-06+0j) 
+ 1.8861    0.5658    1.8861    0.0000     0.1744     (3.1246019686793527e-06+0j) 
+ 1.8861    0.7544    1.8861    0.0000     0.2327     (3.5681285566047494e-06+0j) 
+ 1.8861    0.9430    1.8861    0.0000     0.3288     (4.2745313421016786e-06+0j) 
+ 1.8861    1.1317    1.8861    0.0000     0.4124     (4.8771371327009095e-06+0j) 
+ 1.8861    1.3203    1.8861    0.0000     0.3687     (4.712878970436293e-06+0j) 
+ 1.8861    1.5089    1.8861    0.0000     0.1966     (3.5350587828449637e-06+0j) 
+ 1.8861    1.6975    1.8861    0.0000     0.0511     (1.8468931412942955e-06+0j) 
+ 1.8861    1.8861    1.8861    0.0000     0.0098     (5.175792384217829e-07+0j) 
+
+
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:36: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/src/analyze_CHG_WAVECAR.py:150: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+time taken for calculating psi along graphs:  7.0507729053497314
+Material has chg drop: 0.6236491050528244; chg retention: 0.37635089494717555
+Analyze wavefunction(k=0,0,0) along graph only if charge density retention is > 20.0% (exterimental)
+
+==================================================================================================
+
+Number of bands with nonzero density within 3.4249 and 3.9249: 3
+We could not find significant destructive interference in the lattice/sublattice
+../Calc_wavecar/mp-1031.out
+mp-1031.out
+Traceback (most recent call last):
+  File "/net/scratch/a97824ab/WAVECAR_project/Trivialcat_v2/main.py", line 43, in <module>
+    os.chdir(filepath)
+NotADirectoryError: [Errno 20] Not a directory: '/net/scratch/a97824ab/WAVECAR_project/Calc_wavecar/mp-1031.out'
+../Calc_wavecar/mp-1043
+mp-1043
+Creating GCOEFF.txt ...
+Output: 
+ record length  =       31648  spins =           2  prec flag        45200
+ no. k points =          10
+ no. bands =         128
+ max. energy =   680.000000    
+ real space lattice vectors:
+ a1 =  -3.65757394      -3.65757394       0.00000000    
+ a2 =  -3.65757394       0.00000000      -3.65757394    
+ a3 =   0.00000000      -3.65757394      -3.65757394    
+  
+  
+ volume unit cell =   97.8609314    
+ reciprocal lattice vectors:
+ b1 = -0.858928025     -0.858928025      0.858928025    
+ b2 = -0.858928025      0.858928025     -0.858928025    
+ b3 =  0.858928025     -0.858928025     -0.858928025    
+ reciprocal lattice vector magnitudes:
+   1.48770690       1.48770690       1.48770690    
+  
+ max. no. G values; 1,2,3 =          11          11          11
+  
+ estimated max. no. plane waves =        4608
+  
+ ******
+ reading spin            1
+ k point #           1   input no. of plane waves =        3839
+ k value =   0.00000000       0.00000000       0.00000000    
+ k point #           2   input no. of plane waves =        3909
+ k value =  0.200000003      -6.59280526E-18  -7.55993370E-16
+ k point #           3   input no. of plane waves =        3915
+ k value =  0.400000006      -1.29761949E-17  -5.06449088E-15
+ k point #           4   input no. of plane waves =        3931
+ k value =  0.200000003      0.200000003      -3.12657066E-17
+ k point #           5   input no. of plane waves =        3933
+ k value =  0.400000006      0.200000003      -4.29343171E-15
+ k point #           6   input no. of plane waves =        3938
+ k value = -0.400000006      0.200000003      -5.00006640E-15
+ k point #           7   input no. of plane waves =        3929
+ k value = -0.200000003      0.200000003       1.45885162E-15
+ k point #           8   input no. of plane waves =        3956
+ k value =  0.400000006      0.400000006      -1.62039322E-17
+ k point #           9   input no. of plane waves =        3935
+ k value = -0.400000006      0.400000006      -6.36057581E-16
+ k point #          10   input no. of plane waves =        3955
+ k value = -0.400000006      0.400000006      0.200000003    
+  
+ ******
+ reading spin            2
+ k point #           1   input no. of plane waves =        3839
+ k value =   0.00000000       0.00000000       0.00000000    
+ k point #           2   input no. of plane waves =        3909
+ k value =  0.200000003      -6.59280526E-18  -7.55993370E-16
+ k point #           3   input no. of plane waves =        3915
+ k value =  0.400000006      -1.29761949E-17  -5.06449088E-15
+ k point #           4   input no. of plane waves =        3931
+ k value =  0.200000003      0.200000003      -3.12657066E-17
+ k point #           5   input no. of plane waves =        3933
+ k value =  0.400000006      0.200000003      -4.29343171E-15
+ k point #           6   input no. of plane waves =        3938
+ k value = -0.400000006      0.200000003      -5.00006640E-15
+ k point #           7   input no. of plane waves =        3929
+ k value = -0.200000003      0.200000003       1.45885162E-15
+ k point #           8   input no. of plane waves =        3956
+ k value =  0.400000006      0.400000006      -1.62039322E-17
+ k point #           9   input no. of plane waves =        3935
+ k value = -0.400000006      0.400000006      -6.36057581E-16
+ k point #          10   input no. of plane waves =        3955
+ k value = -0.400000006      0.400000006      0.200000003    
+
+Errors: 
+------GCOEFF created------------
+
+=================================== 
+Reading GCOEFF.txt ....               
+
+no. spin values = 2
+no. k points    = 10
+no. bands       = 128
+real space lattice vectors:
+a1 = [-3.65757394 -3.65757394  0.        ]
+a2 = [-3.65757394  0.         -3.65757394]
+a3 = [ 0.         -3.65757394 -3.65757394]
+
+volume unit cell = 97.86093004687157
+
+reciprocal lattice vectors:
+b1 = [-0.85892802 -0.85892802  0.85892802]
+b2 = [-0.85892802  0.85892802 -0.85892802]
+b3 = [ 0.85892802 -0.85892802 -0.85892802]
+
+reading plane wave coefficients...
+k point #1
+k point #2
+k point #3
+k point #4
+k point #5
+k point #6
+k point #7
+k point #8
+k point #9
+k point #10
+k point #1
+k point #2
+k point #3
+k point #4
+k point #5
+k point #6
+k point #7
+k point #8
+k point #9
+k point #10
+GCOEFF reading complete------------------------------------
+===================================================
+
+kpoints used in the DFT calculation:
+ [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 2.00000003e-01 -6.59280526e-18 -7.55993370e-16]
+ [ 4.00000006e-01 -1.29761949e-17 -5.06449088e-15]
+ [ 2.00000003e-01  2.00000003e-01 -3.12657066e-17]
+ [ 4.00000006e-01  2.00000003e-01 -4.29343171e-15]
+ [-4.00000006e-01  2.00000003e-01 -5.00006640e-15]
+ [-2.00000003e-01  2.00000003e-01  1.45885162e-15]
+ [ 4.00000006e-01  4.00000006e-01 -1.62039322e-17]
+ [-4.00000006e-01  4.00000006e-01 -6.36057581e-16]
+ [-4.00000006e-01  4.00000006e-01  2.00000003e-01]]
+======================================
+
+Emin: -0.5, Emax: 0.0, Sublattice element: V
+Structure: 
+ ========================
+ Full Formula (Hf2 V4)
+Reduced Formula: HfV2
+abc   :   5.172591   5.172591   5.172591
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (6)
+  #  SP        a      b      c
+---  ----  -----  -----  -----
+  0  Hf    0.75   0.75   0.75
+  1  Hf    0      0      0
+  2  V     0.875  0.375  0.375
+  3  V     0.375  0.875  0.375
+  4  V     0.375  0.375  0.875
+  5  V     0.375  0.375  0.375 
+
+Sublattice Structure: 
+ ========================
+ Full Formula (V4)
+Reduced Formula: V
+abc   :   5.172591   5.172591   5.172591
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (4)
+  #  SP        a      b      c
+---  ----  -----  -----  -----
+  0  V     0.875  0.375  0.375
+  1  V     0.375  0.875  0.375
+  2  V     0.375  0.375  0.875
+  3  V     0.375  0.375  0.375 
+
+
+----------------------------
+Structure graph:
+initial_coord    final_coord      image_in_periodic_cell
+ -------------------------------------------------
+[0.875 0.375 0.375] [1.375 0.375 0.375] (1, 0, 0)
+[0.875 0.375 0.375] [0.375 0.375 0.375] (0, 0, 0)
+[0.875 0.375 0.375] [ 1.375  0.375 -0.125] (1, 0, -1)
+[0.875 0.375 0.375] [0.375 0.375 0.875] (0, 0, 0)
+[0.875 0.375 0.375] [ 1.375 -0.125  0.375] (1, -1, 0)
+[0.875 0.375 0.375] [0.375 0.875 0.375] (0, 0, 0)
+[0.375 0.875 0.375] [0.375 1.375 0.375] (0, 1, 0)
+[0.375 0.875 0.375] [0.375 0.375 0.375] (0, 0, 0)
+[0.375 0.875 0.375] [ 0.375  1.375 -0.125] (0, 1, -1)
+[0.375 0.875 0.375] [0.375 0.375 0.875] (0, 0, 0)
+[0.375 0.375 0.875] [0.375 0.375 1.375] (0, 0, 1)
+[0.375 0.375 0.875] [0.375 0.375 0.375] (0, 0, 0)
+--------------------------------------------------------------------------------------
+The graph is created. It has 12 edges and 4 nodes
+time taken for reading wavefunction and predict flatness 47.37102031707764
+Number of cpu :  32
+We are using 32 cpus
+slurmstepd: error: *** JOB 3117406 ON node1050 CANCELLED AT 2025-07-05T23:54:08 ***

@@ -1,0 +1,75 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+import cv2
+import itertools, tqdm
+
+
+## Get band structure from Wavecar and plot it: Predict flat band using NN model
+def plot_bands_and_predict(exe_model_path, wavecar, fermi, bandwidth, threshold):
+    print ('Plotting bandstructure on uniform kgrid, and predicting band flatness .....   \n') 
+    ##### Plot BS and predict flatband
+    bs = create_band_dispersion_on_uniform_kgrid(wavecar.wk, np.real(wavecar.cener), fermi, bandwidth)
+    predicted = predict_flatness(exe_model_path+'/model.keras')
+    print ('Prediction (from top to bottom): ',predicted)
+    ### For now only considering occupied flat bands
+    if (max(predicted[2:]) > threshold):
+        print('Material has a flatband: extracting Emin, Emax')  
+        prediction_segments=[]
+        energy_steps = np.linspace((bandwidth/2), -(bandwidth/2), len(predicted)+1)
+        for numm,i in enumerate(itertools.pairwise(energy_steps)):
+            prediction_segments.append(i)
+            print(f'segment {numm}: {i}')
+        Emax, Emin = prediction_segments[np.argmax(predicted[2:])+2]   ### finding max in predicted[2:] and add 2 to get the actual location
+        print(f'Emax = {Emax}, Emin = {Emin}')
+    else:
+        print('Material does not have a flat band: studying [-0.5,-1.0]')
+        Emax,Emin =[-0.5,-1.0]
+    return predicted, Emin, Emax
+    
+def create_band_dispersion_on_uniform_kgrid(wk, cener, fermi,bandwidth):
+    my_dpi=120
+    fi,axxs =plt.subplots(nrows=1, ncols=1, figsize=((1.0001*96)/my_dpi, (4*96)/my_dpi), dpi=my_dpi)
+    for i in range(cener.shape[0]):
+        axxs.plot(cener[i,:,:],color='black',linestyle='-',linewidth=2.5)
+    axxs.set_ylim([-(bandwidth/2)+fermi, (bandwidth/2)+fermi])
+    axxs.axis('off')
+    axxs.margins(0,0)
+    fid = 'BS.png'
+    fi.tight_layout()
+    plt.subplots_adjust(left = 0, right =1.0, top = 1.0, bottom = 0, wspace=0, hspace=0)
+    fi.savefig(fid, bbox_inches='tight', pad_inches = 0)
+    plt.clf()
+    plt.close('all')    ### crucial
+    plt.show()
+
+def predict_flatness(model_path):
+    model= tf.keras.models.load_model(model_path)
+    #Function to divide the image into segments
+    def blockshaped(arr, nrows, ncols):
+        """
+        Return an array of shape (n, nrows, ncols) where
+        n * nrows * ncols = arr.size
+    
+        If arr is a 2D array, the returned array should look like n subblocks with
+        each subblock preserving the "physical" layout of arr.
+        """
+        h, w = arr.shape
+        assert h % nrows == 0, f"{h} rows is not evenly divisible by {nrows}"
+        assert w % ncols == 0, f"{w} cols is not evenly divisible by {ncols}"
+        return (arr.reshape(h//nrows, nrows, -1, ncols)
+                   .swapaxes(1,2)
+                   .reshape(-1, nrows, ncols))
+
+    ##read image
+    inputs =cv2.cvtColor(cv2.imread('BS.png'), cv2.COLOR_BGR2GRAY)
+    
+    #####
+    flatband_threshold=0.5
+    rsize = 96
+    csize = 96
+    model_in = blockshaped(inputs,rsize,csize)
+    predicted = model.predict(model_in, verbose = 0)
+    return predicted 
+    
+    

@@ -1,6 +1,6 @@
 # TrivialCat v4 – Main Scripts
 
-This repository contains a small collection of **entry-point scripts** to:
+This repository can be used to:
 
 - generate standardized VASP input sets from Materials Project,
 - run the main *TrivialCat* flat-band analysis on VASP outputs,

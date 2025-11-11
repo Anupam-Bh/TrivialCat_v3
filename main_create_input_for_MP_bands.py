@@ -8,7 +8,7 @@
 # Rest arguments bool
 ###############################
 
-MP_API_KEY="Jq3p6rY2iay8B8QMDKOOopsEjsSmFVcZ"
+MP_API_KEY="Your MP API KEY"
 
 
 from mp_api.client import MPRester

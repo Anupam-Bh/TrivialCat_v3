@@ -1,4 +1,4 @@
-# TrivialCat v4 – Main Scripts
+# TrivialCat v4
 
 This repository can be used to:
 

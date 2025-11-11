@@ -15,7 +15,7 @@ from pymatgen.io.lobster import Doscar
 
 from mp_api.client import MPRester
 
-MP_API_KEY="Jq3p6rY2iay8B8QMDKOOopsEjsSmFVcZ"
+MP_API_KEY="Your MP API KEY"
 
 mp_id = '20536'
 # with MPRester(MP_API_KEY) as mpr:
